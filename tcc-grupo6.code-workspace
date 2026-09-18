@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{ "name": "🏠 Raiz (Git)", "path": "." },
+		{ "name": "🔌 Firmware (ESP32)", "path": "hardware/firmware" },
+		{ "name": "🐍 Backend (Flask)", "path": "software/backend" }
+	],
+	"settings": {
+		"files.exclude": {
+			"**/__pycache__": true,
+			"**/*.pyc": true,
+			"**/.pio": true
+		},
+		"python.terminal.useEnvFile": true
+	}
+}
