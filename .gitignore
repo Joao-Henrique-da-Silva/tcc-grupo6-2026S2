@@ -128,4 +128,4 @@ tempCodeRunnerFile.py
 secrets.h
 
 # IDE
-.vscode/
+.vscode/*.code-workspace
