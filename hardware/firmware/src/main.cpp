@@ -10,10 +10,15 @@
  *   DHT22 DATA -> GPIO 4
  *   LED vermelho -> GPIO 2
  */
+
 #include <Arduino.h>
 #include <WiFi.h>
 #include <DHT.h>
 #include "secrets.h"   // ← credenciais vindas do arquivo local
+
+// ===== Protótipos das funções (OBRIGATÓRIO em .cpp) =====
+void conectarWiFi();
+void lerEnviarDados();
 
 // As constantes WIFI_SSID e WIFI_PASSWORD já vêm do secrets.h
 
